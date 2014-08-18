@@ -17,7 +17,7 @@
                     {% if forloop.length == 1 %}
                         {% assign class = '' %}
                     {% else %}
-                    {% capture class %}class={% cycle 'visible-desktop', 'visible-tablet', 'visible-phone' %}{% endcapture %}
+                    {% capture class %}class={% cycle 'visible-lg visible-md', 'visible-sm', 'visible-xs' %}{% endcapture %}
                     {% endif %}
                     <a href="{{ page.jumbolink }}"><img {{ class }} src="assets/img/{{ image }}" alt="{{ site.name }} - {{ page.title }}"></a>
                 {% endfor %}

@@ -1,17 +1,18 @@
 <div class="navbar-wrapper">
     <div class="container">
-        <div class="navbar navbar-inverse">
-            <div class="navbar-inner">
-                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <div class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Barra navigazione</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="brand hidden-phone" href="http://www.linuxday.it">{{ site.event_name }}</a>
-                <a class="brand visible-phone" href="http://www.linuxday.it">{{ site.event_name_short }}</a>
-                <div class="nav-collapse collapse">
-                    {% include navbar_list.html %}
-                </div>
+                <a class="navbar-brand hidden-xs" href="http://www.linuxday.it">{{ site.event_name }}</a>
+                <a class="navbar-brand visible-xs" href="http://www.linuxday.it">{{ site.event_name_short }}</a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                {% include navbar_list.html %}
             </div>
         </div>
     </div>
