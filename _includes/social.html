@@ -1,0 +1,52 @@
+{% comment %} vim: set foldmarker=[[[,]]]: {% endcomment %}
+<div class="socialbuttons socialwell">
+    {% if page.follow %}
+    <!-- follow [[[ -->
+    <div class="followbuttons">
+        <h4>Seguici!</h4>
+        <!-- twitter -->
+        <div class="twitter-follow" style="display:inline">
+            <a href="https://twitter.com/{{ site.twitter }}"
+                class="twitter-follow-button"
+                data-show-count="false"
+                data-show-screen-name="false"
+                data-lang="it">Segui @{{ site.twitter }}</a>
+        </div>
+        {% comment %}
+        <!-- g+ -->
+        <div class="g-follow" data-annotation="none" data-height="20" data-href="{{ site.google_plus }}" data-rel="publisher"></div>
+        {% endcomment %}
+        {% comment %}
+        <!-- facebook -->
+        <div class="fb-follow" data-href="{{ site.facebook }}" data-layout="button_count" data-show-faces="false" data-width="450"></div>
+        {% endcomment %}
+    </div>
+    <!-- /follow ]]] -->
+    {% endif %}
+    {% if page.share %}
+    <!-- share [[[ -->
+    <div class="sharebuttons">
+        <h4>Condividi!</h4>
+        <span class="st_twitter_large" displayText="Tweet"></span>
+        <span class="st_facebook_large" displayText="Facebook"></span>
+        <span class="st_googleplus_large" displayText="Google +"></span>
+        <span class="st_linkedin_large" displayText="LinkedIn"></span>
+        <span class="st_tumblr_large" displayText="Tumblr"></span>
+        <span class="st_reddit_large" displayText="Reddit"></span>
+        <span class="st_pinterest_large" displayText="Pinterest"></span>
+        <span class="st_email_large" displayText="Email"></span>
+        <span class="st_sharethis_large" displayText="ShareThis"></span>
+    </div>
+    <!-- /share ]]] -->
+    <!-- recommend [[[ -->
+    <div class="recommendbuttons">
+        <!-- twitter -->
+        <div class="twitter-tweet" style="display:inline"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{{ site.tweet }}" data-url="{{ site.url }}" data-lang="it" data-related="{{ site.twitter }}" data-hashtags="{{ site.hashtag }}">Tweet</a></div>
+        <!-- g+ -->
+        <div class="g-plusone" data-href="{{ site.url }}" data-size="medium"></div>
+        <!-- facebook -->
+        <div class="fb-like" data-href="{{ site.url }}" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+    </div>
+    <!-- /recommend ]]] -->
+    {% endif %}
+</div>

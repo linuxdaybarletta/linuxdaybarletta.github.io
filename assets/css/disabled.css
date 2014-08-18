@@ -1,0 +1,15 @@
+/* disable site */
+.wrapper > * {
+  opacity:0.3;
+  filter:alpha(opacity=30); /* For IE8 and earlier */
+}
+/* body:after { */
+  /* top: 0; */
+  /* left: 0; */
+  /* height:100%; */
+  /* width:100%; */
+  /* z-index: 10000; */
+  /* position: fixed; */
+  /* background: rgba(0,0,0,0.7); */
+  /* content: " "; */
+/* } */

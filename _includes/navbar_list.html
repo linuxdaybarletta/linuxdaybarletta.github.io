@@ -1,0 +1,14 @@
+<ul class="nav">
+{% assign MAX_WEIGHT = site.pages.size %}
+{% for weight in (0..MAX_WEIGHT) %}
+  {% for p in site.pages %}
+    {% if p.weight == weight %}
+      <li {% if p.url == page.url %}class="active"{% endif %}>
+        <a href="{{ p.url }}">
+          {{ p.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>

@@ -1,0 +1,59 @@
+<script type="text/javascript">
+var is_touch_device = ("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch;
+// popover only for desktop
+if (! is_touch_device) {
+    $(function() {
+        $(".popover-on").popover();
+    });
+} else {
+    $(".info-pop").text("");
+}
+var default_panel = "panel-info";
+var error_panel = "panel-danger";
+$.validator.setDefaults({
+    ignore: [],
+});
+$("#form").validate({
+    invalidHandler: function(event, validator) {
+        $(".panel")
+            .removeClass(default_panel)
+            .addClass(error_panel);
+        $(".panel-p").slideUp(function() {
+            $(".panel-p").text("Stai dimenticando qualcosa!");
+            $(".panel-p").slideDown();
+        });
+    },
+    errorPlacement: function(error, element) { },
+    errorClass: "has-error",
+    validClass: "has-success",
+    rules: {
+        email: {
+            required: true,
+            email: true
+        },
+        'agree-policy': {
+            required: true
+        },
+        'agree-mailing': {
+            required: true
+        }
+    },
+    messages: {
+        email: {
+            email: "Inserisci un indirizzo email valido"
+        },
+        'agree-policy': {
+            required: "Per iscriverti devi accettare le condizioni",
+        },
+        'agree-mailing': {
+            required: "Per iscriverti devi accettare le condizioni",
+        }
+    },
+    highlight: function(element, errorClass, validClass) {
+        $(element).closest(".form-group").addClass(errorClass).removeClass(validClass);
+    },
+    unhighlight: function(element, errorClass, validClass) {
+        $(element).closest(".form-group").addClass(validClass).removeClass(errorClass);
+    },
+});
+</script>

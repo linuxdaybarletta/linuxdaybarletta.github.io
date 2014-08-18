@@ -1,0 +1,67 @@
+<!-- vim: set foldmarker=[[[,]]]: -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>{{ site.alt_name }} - {{ page.title }}</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="{{ site.event_name }} a Barletta. Install fest, divertimento ed innovazione al party nazionale dedicato a GNU/Linux.">
+
+
+<!-- Styles [[[ -->
+<link href="assets/css/bootstrap3.css" rel="stylesheet" type="text/css">
+<link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+{% if page.title == 404 %}
+<link href="assets/css/404.css" rel="stylesheet" type="text/css">
+{% else %}
+<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+{% endif %}
+{% if page.disabled %}
+<link href="assets/css/disabled.css" rel="stylesheet" type="text/css">
+{% endif %}
+
+{% include fonts.html %}
+<!-- /Styles ]]] -->
+
+<!-- Fav and touch icons [[[ -->
+{% include icons.html %}
+<!-- /Fav and touch icons ]]] -->
+
+<!-- Scripts [[[ -->
+<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery }}/jquery.min.js">
+</script>
+<script src="assets/js/bootstrap3.js">
+</script>
+<script src="assets/js/bootstrap.js">
+</script>
+<script src="assets/js/ganalytics.js">
+</script>
+{% include schema.org.html %}
+{% if page.title == 404 %}
+<script src="assets/js/404.js" type="text/javascript" charset="utf-8"></script>
+{% endif %}
+{% if page.validator %}
+<script src="assets/js/jquery.validate.js"></script>
+{% endif %}
+
+{% if page.share %}
+<!-- sharethis [[[ -->
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "7efb1a70-ab0e-4ae1-a973-fcafc21238ef", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+<!-- /sharethis ]]] -->
+{% endif %}
+
+{% if page.gmaps %}
+<!-- gmaps [[[ -->
+<script src="http://maps.google.com/maps/api/js?sensor=false">
+</script>
+<script src="assets/js/gmaps.js">
+</script>
+<!-- /gmaps ]]] -->
+{% endif %}
+<!-- /Scripts ]]] -->

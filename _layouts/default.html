@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- vim: set foldmarker=[[[,]]]: -->
+<html lang="it">
+    <!-- head [[[ -->
+    <head>
+    {% include head.html %}
+    </head>
+    <!-- /head ]]] -->
+    <!-- body [[[ -->
+    <body>
+        {% if page.topalert %}{% include masteralert.html %}{% endif %}
+        <!-- wrapper [[[ -->
+        <div class="wrapper container">
+            <!-- jumbotron [[[ -->
+            <div class="jumbotron">
+                {% for image in page.jumboimages %}
+                    {% if forloop.length == 1 %}
+                        {% assign class = '' %}
+                    {% else %}
+                    {% capture class %}class={% cycle 'visible-desktop', 'visible-tablet', 'visible-phone' %}{% endcapture %}
+                    {% endif %}
+                    <a href="{{ page.jumbolink }}"><img {{ class }} src="assets/img/{{ image }}" alt="{{ site.name }} - {{ page.title }}"></a>
+                {% endfor %}
+            </div>
+            <!-- /jumbotron ]]] -->
+            <hr class="linux">
+            <!-- content [[[ -->
+            <div class="content">
+                {{ content }}
+            </div>
+            <!-- /content ]]] -->
+            <!-- socialwell [[[ -->
+            {% if page.share or page.follow %}
+            {% include social.html %}
+            {% endif %}
+            <!-- /socialwell ]]] -->
+            <div class="pushdown"></div>
+        </div>
+        <!-- /wrapper ]]] -->
+        <!-- footer [[[ -->
+        {% include footer.html %}
+        <!-- /footer ]]] -->
+        <!-- navbar [[[ -->
+        {% include navbar.html %}
+        <!-- /navbar ]]] -->
+        <!-- Social scripts [[[ -->
+        {% if page.share or page.follow %}
+        {% include social_scripts.html %}
+        {% endif %}
+        <!-- /Social scripts ]]] -->
+        <!-- form validator [[[ -->
+        {% if page.validator %}
+        {% include validator.html %}
+        {% endif %}
+        <!-- /form validator ]]] -->
+        <!-- antispam [[[ -->
+        {% if page.nospam %}
+        <script src="assets/js/gtml.js" type="text/javascript"></script>
+        {% endif %}
+        <!-- /antispam ]]] -->
+    </body>
+    <!-- /body ]]] -->
+</html>

@@ -1,0 +1,48 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: -ms-linear-gradient(bottom, #0073b2 0%, #0081c8 15%, #00a3ef 100%);
+    background-image: -moz-linear-gradient(bottom, #0073b2 0%, #0081c8 15%, #00a3ef 100%);
+    background-image: -o-linear-gradient(bottom, #0073b2 0%, #0081c8 15%, #00a3ef 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0073b2), color-stop(0.15, #0081c8), color-stop(1, #00a3ef));
+    background-image: -webkit-linear-gradient(bottom, #0073b2 0%, #0081c8 15%, #00a3ef 100%);
+    background-image: linear-gradient(to top, #0073b2 0%, #0081c8 15%, #00a3ef 100%);
+}
+body {
+    overflow: hidden;
+}
+#top {
+    height: 75px;
+    background-image: -ms-linear-gradient(top, #ebf7f7 0%, #daecf0 100%);
+    background-image: -moz-linear-gradient(top, #ebf7f7 0%, #daecf0 100%);
+    background-image: -o-linear-gradient(top, #ebf7f7 0%, #daecf0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ebf7f7), color-stop(1, #daecf0));
+    background-image: -webkit-linear-gradient(top, #ebf7f7 0%, #daecf0 100%);
+    background-image: linear-gradient(to bottom, #ebf7f7 0%, #daecf0 100%);
+}
+#tux {
+    text-align: center;
+    left: 0;
+    right: 0;
+    height: 225px;
+    background: #daecf0 url('../img/tux250.png') no-repeat center top;
+
+}
+#surf {
+    margin-top: -10px;
+    background: url('../img/waves.png');
+    height: 24px;
+}
+#text {
+    font: 1.3em 'Raleway', sans-serif;
+    color: #333;
+    text-align: center;
+    /* display: none; <- JavaScript on DOM ready */
+}
+#paw {
+    text-align: center;
+    margin-top: 40px;
+    display: none;
+}
