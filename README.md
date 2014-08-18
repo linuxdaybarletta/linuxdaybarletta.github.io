@@ -16,7 +16,7 @@ Questo sito è stato sviluppato utilizzando le seguenti tecnologie:
 Software utilizzato
 -------------------
 
-Per la realizzazione del sito sono stati usati i seguenti applicativi software:
+Per la realizzazione del sito sono stati usati i seguenti software:
 
   * [GIMP](http://gimp.org/) per la realizzazione delle immagini;
   * [Vim](http://vim.org/) come editor di testo;
@@ -24,10 +24,6 @@ Per la realizzazione del sito sono stati usati i seguenti applicativi software:
   * [Midori](http://www.midori-browser.org/).
 
 Il sistema operativo utilizzato per lo sviluppo è [Manjaro Linux](http://manjaro.org/).
-
-### Web apps
-
-Per il modulo di iscrizione si è fatto uso dell'applicazione web [Simple Form](http://getsimpleform.com).
 
 Autore
 ------
@@ -39,10 +35,8 @@ Licenze
 
 I diritti sulle seguenti opere grafiche appartengono ad i rispettivi proprietari:
 
-  * [GOS](http://giovaniopenspace.it/)
-  * [Linux Day Italia 2013](http://www.ils.org)
-  * [Manjaro Linux](http://manjaro.org/)
-  * [Linux Mint](http://linuxmint.com)
+  * [Logo GOS](http://giovaniopenspace.it/)
+  * [Banner Linux Day Italia 2014](http://www.ils.org)
   * [Textures](http://subtlepatterns.com/)
 
 Il logo del pinguino con lo stemma della città di Barletta è rilasciato con licenza [Creative Commons Attribuzione 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.it).
