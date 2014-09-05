@@ -37,10 +37,14 @@
 </script>
 <script src="assets/js/ganalytics.js">
 </script>
-{% include schema.org.html %}
+{% if page.cookies %}
+<script src="assets/js/jquery.cookie.js"></script>
+{% endif %}
 {% if page.validator %}
 <script src="assets/js/jquery.validate.js"></script>
 {% endif %}
+
+{% include schema.org.html %}
 
 {% if page.share %}
 <!-- sharethis [[[ -->
