@@ -341,6 +341,13 @@ html, body {
 .footer .container {
   border-top: 1px solid #eee;
 }
+.nav-emph a {
+  color: #a94442 !important;
+}
+.nav-emph a:hover, .nav-emph a:active {
+  color: #a94442 !important;
+  text-shadow: 0 0 1px #a94442;
+}
 /*Opera Fix*/
 body:before {
   content: "";
