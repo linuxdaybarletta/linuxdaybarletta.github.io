@@ -232,6 +232,9 @@ form {
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
+#map-canvas img {
+  max-width: none;
+}
 #callmlsnd {
   text-align: center;
   clear: both;
