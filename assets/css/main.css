@@ -199,6 +199,9 @@ li {
   position: relative;
   margin: 0 auto;
   text-align: left;
+  -webkit-box-shadow: 0 0 5px rgba(0,0,0,.25);
+  -moz-box-shadow: 0 0 5px rgba(0,0,0,.25);
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
 }
 #modulo {
   margin-top: -60px;
