@@ -8,7 +8,7 @@
     <!-- /head ]]] -->
     <!-- body [[[ -->
     <body>
-        {% if page.topalert %}{% include masteralert.html %}{% endif %}
+        {% if site.topalert or page.topalert %}{% include masteralert.html %}{% endif %}
         <!-- wrapper [[[ -->
         <div class="wrapper container">
             <!-- jumbotron [[[ -->
@@ -17,7 +17,7 @@
                     {% if forloop.length == 1 %}
                         {% assign class = '' %}
                     {% else %}
-                    {% capture class %}class={% cycle 'visible-lg visible-md', 'visible-sm', 'visible-xs' %}{% endcapture %}
+                        {% capture class %}class={% cycle 'visible-lg visible-md', 'visible-sm', 'visible-xs' %}{% endcapture %}
                     {% endif %}
                     <a href="{{ page.jumbolink }}"><img {{ class }} src="assets/img/{{ image }}" alt="{{ site.name }} - {{ page.title }}"></a>
                 {% endfor %}
@@ -31,7 +31,7 @@
             <!-- /content ]]] -->
             <!-- socialwell [[[ -->
             {% if page.share or page.follow %}
-            {% include social.html %}
+                {% include social.html %}
             {% endif %}
             <!-- /socialwell ]]] -->
             <div class="pushdown"></div>
@@ -45,12 +45,12 @@
         <!-- /navbar ]]] -->
         <!-- Social scripts [[[ -->
         {% if page.share or page.follow %}
-        {% include social_scripts.html %}
+            {% include social_scripts.html %}
         {% endif %}
         <!-- /Social scripts ]]] -->
         <!-- form validator [[[ -->
         {% if page.validator %}
-        {% include validator.html %}
+            {% include validator.html %}
         {% endif %}
         <!-- /form validator ]]] -->
         <!-- top alert [[[ -->
