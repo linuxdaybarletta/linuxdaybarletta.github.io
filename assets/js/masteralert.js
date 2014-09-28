@@ -4,6 +4,8 @@ jQuery(function($){
         $('.alert').hide();
     }
     $('button.close, .alert-link').click(function(e) {
+        // Hide the alert box
+        $(this).parent().removeClass('in')
         // path: '/' -> valid for the whole site
         $.cookie('alert-box', 'closed', {path: '/'});
     });
