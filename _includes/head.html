@@ -37,7 +37,7 @@
 </script>
 <script src="assets/js/ganalytics.js">
 </script>
-{% if page.cookies %}
+{% if site.cookies or page.cookies %}
 <script src="assets/js/jquery.cookie.js"></script>
 {% endif %}
 {% if page.validator %}
