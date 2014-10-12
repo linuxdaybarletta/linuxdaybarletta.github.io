@@ -211,6 +211,10 @@ li {
 .ampersat {
   font-family: arial, sans-serif;
 }
+.grayed-out * {
+  color: #999 !important;
+  background: none;
+}
 .panel {
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);

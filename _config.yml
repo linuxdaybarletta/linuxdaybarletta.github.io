@@ -12,8 +12,8 @@ facebook: https://www.facebook.com/PugliaSOS
 google_plus: //plus.google.com/118028692961657819578
 markdown: redcarpet
 pygments: true
+last_update_text: "Ultimo aggiornamento: "
 jquery: 1.11.1
-bootstrap: 3.2.0
 registration: linuxday-barletta-2014-partecipazione.html
 contacts: linuxday-barletta-2014-contatti.html
 where: linuxday-barletta-2014-dove-saremo.html

@@ -27,6 +27,16 @@
             <!-- content [[[ -->
             <div class="content">
                 {{ content }}
+                {% if site.timestamp or page.timestamp %}
+                    <hr>
+                    <p class="grayed-out text-right">
+                        <small>{{ site.last_update_text }}
+                            <code>
+                                {{ site.time | date: "%d/%m/%Y - %H:%M"}}
+                            </code>
+                        </small>
+                    </p>
+                {% endif %}
             </div>
             <!-- /content ]]] -->
             <!-- socialwell [[[ -->
