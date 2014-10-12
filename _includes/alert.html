@@ -1,5 +1,5 @@
 <div class="top-message {{ include.class }}" style="{% if include.hidden %}display:none{% endif %}">
-    <div class="alert alert-{{ include.type }} fade in {% if include.dismissable %}alert-dismissable{% endif %}">
+    <div class="alert cooked alert-{{ include.type }} fade in {% if include.dismissable %}alert-dismissable{% endif %}">
         {% if include.dismissable %}<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>{% endif %}
         {{ include.content }}
     </div>

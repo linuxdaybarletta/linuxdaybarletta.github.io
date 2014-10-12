@@ -1,7 +1,7 @@
 jQuery(function($){
     // Check if alert has been closed
     if ($.cookie('alert-box') === 'closed') {
-        $('.alert').hide();
+        $('.cooked').hide();
     }
     $('button.close, .alert-link').click(function(e) {
         // Hide the alert box
