@@ -11,7 +11,7 @@ twitter: LDBarletta
 facebook: https://www.facebook.com/PugliaSOS
 google_plus: //plus.google.com/118028692961657819578
 markdown: redcarpet
-pygments: true
+highlighter: true
 last_update_text: "Ultimo aggiornamento: "
 jquery: 1.11.1
 registration: linuxday-barletta-2016-partecipazione.html
