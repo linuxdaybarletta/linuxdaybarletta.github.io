@@ -5,6 +5,7 @@
     <div class="followbuttons">
         <h4>Seguici!</h4>
         <!-- twitter -->
+        {% comment %}
         <div class="twitter-follow" style="display:inline">
             <a href="https://twitter.com/{{ site.twitter }}"
                 class="twitter-follow-button"
@@ -12,12 +13,14 @@
                 data-show-screen-name="false"
                 data-lang="it">Segui @{{ site.twitter }}</a>
         </div>
+        {% endcomment %}
         {% comment %}
         <!-- g+ -->
         <div class="g-follow" data-annotation="none" data-height="20" data-href="{{ site.google_plus }}" data-rel="publisher"></div>
         {% endcomment %}
-        {% comment %}
         <!-- facebook -->
+        <a href="{{ site.facebook }}">facebook</a>
+        {% comment %}
         <div class="fb-follow" data-href="{{ site.facebook }}" data-layout="button_count" data-show-faces="false" data-width="450"></div>
         {% endcomment %}
     </div>
