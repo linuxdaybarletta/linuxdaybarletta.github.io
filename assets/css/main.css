@@ -203,11 +203,6 @@ li {
   -moz-box-shadow: 0 0 5px rgba(0,0,0,.25);
   box-shadow: 0 0 5px rgba(0,0,0,.25);
 }
-#modulo {
-  margin-top: -60px;
-  padding-bottom: 60px;
-  display: block;
-}
 .ampersat {
   font-family: arial, sans-serif;
 }
@@ -273,6 +268,11 @@ form {
 }
 .fb-follow {
   top: -4px;
+}
+.anchor {
+  margin-top: -60px;
+  padding-top: 60px;
+  display: block;
 }
 /*}}}*/
 
