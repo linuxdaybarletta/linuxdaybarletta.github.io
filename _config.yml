@@ -1,12 +1,12 @@
-name: Linux Day Barletta 2016
-description: "Sabato 22 ottobre: appuntamento con Tux. Puglia Software Open Source organizza il Linux Day 2016 a Barletta!"
-alt_name: Linux Day 2016 - Barletta
-event_date: 22 ottobre
-event_name: Linux Day 2016
-event_name_short: LD'16
+name: Linux Day Barletta 2017
+description: "Sabato 28 ottobre: appuntamento con Tux. Puglia Software Open Source organizza il Linux Day 2017 a Barletta!"
+alt_name: Linux Day 2017 - Barletta
+event_date: 28 ottobre
+event_name: Linux Day 2017
+event_name_short: LD'17
 url: http://linuxdaybarletta.it
-hashtag: LinuxDay2016
-tweet: Linux Day 2016 a Barletta!
+hashtag: LinuxDay2017
+tweet: Linux Day 2017 a Barletta!
 twitter: LDBarletta
 facebook: https://www.facebook.com/PugliaSOS
 google_plus: //plus.google.com/118028692961657819578
@@ -14,9 +14,9 @@ markdown: redcarpet
 highlighter: rouge
 last_update_text: "Ultimo aggiornamento: "
 jquery: 1.11.1
-registration: linuxday-barletta-2016-partecipazione.html
-contacts: linuxday-barletta-2016-contatti.html
-where: linuxday-barletta-2016-dove-saremo.html
+registration: linuxday-barletta-2017-partecipazione.html
+contacts: linuxday-barletta-2017-contatti.html
+where: linuxday-barletta-2017-dove-saremo.html
 banner_square_small: http://www.linuxday.it/sites/default/files/banners/banner_180x150.png
 banner_square_big: http://www.linuxday.it/sites/default/files/banners/banner_300x250.png
 banner_horizontal: http://www.linuxday.it/sites/default/files/banners/banner_468x60.png

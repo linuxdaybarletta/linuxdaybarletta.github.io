@@ -31,7 +31,7 @@
   .content {
     margin: 0 50px;
   }
-  #map-canvas {
+  #map-canvas > iframe {
     width: 500px;
     height: 400px;
   }
@@ -57,7 +57,7 @@
   .content {
     margin: 0 25px;
   }
-  #map-canvas {
+  #map-canvas > iframe {
     width: 350px;
     height: 280px;
   }
@@ -99,7 +99,7 @@
   .content {
     margin: 0 15px;
   }
-  #map-canvas {
+  #map-canvas > iframe {
     width: 240px;
     height: 192px;
   }
@@ -229,13 +229,14 @@ form {
   font-size: 120%;
 }
 #map-canvas {
+  text-align: center;
+}
+#map-canvas > iframe {
+  border: 0;
   margin: 40px auto auto;
   -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   -moz-box-shadow: 0 0 5px rgba(0,0,0,0.3);
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
-}
-#map-canvas img {
-  max-width: none;
 }
 #callmlsnd {
   text-align: center;
