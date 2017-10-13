@@ -4,7 +4,13 @@
   </div>
   <div class="details">
     <h4>{{ include.time }} - <i>{{ include.title }}</i></h4>
-    <p><i>{{ include.speaker }}</i></p>
+    <p><i>{% if include.speaker_qual %}{{ include.speaker_qual }} {% endif %}{{ include.speaker }}</i></p>
     {{ include.abstract }}
+    {% if include.bio %}
+    <div class="speaker-bio">
+      <h5 class="speaker-bio-title">Chi è {{ include.speaker }}</h5>
+      {{ include.bio }}
+    </div>
+    {% endif %}
   </div>
 </div>

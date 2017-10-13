@@ -26,15 +26,22 @@ Per rimanere aggiornati sulle novità riguardanti il Linux Day nella città di B
 
 <h3 class="event-outline">Programma dell'evento</h3>
 
+{% capture bio_0 %}
+<p>Sviluppatore per passione e amante della tecnologia in generale. Nel tempo libero si dedica allo sviluppo di applicazioni mobile (in particolare con Swift), di videogiochi con Unreal Engine 4 e script in Python e PHP.</p>
+{% endcapture %}
 {% include talk.html
 img="https://i.imgur.com/dgkybQs.jpg"
 speaker="Paolo Dellaquila"
 time="15:30"
 title="Introduzione"
-abstract="" %}
+abstract=""
+bio=bio_0 %}
 
 <hr>
 
+{% capture bio_1 %}
+<p>La sua passione per i computer è iniziata a 12 anni con il Commodore 64 e poi con l'AMIGA. Negli ultimi 20 anni ha avuto l'opportunità di crescere professionalmente come sviluppatore software, lavorando negli ultimi 10 anni in aziende che applicano le metodologie Agili. Oggi si dedica al coaching delle metodologie Agili e allo sviluppo web e mobile.</p>
+{% endcapture %}
 {% capture abstract_1 %}
 <p>Che cosa sono i bitcoin e come funziona la Blockchain. Quali sono gli ambiti nei quali l'utilizzo della tecnologia Blockchain può creare un'innovazione dirompente.</p>
 {% endcapture %}
@@ -43,25 +50,35 @@ img="https://i.imgur.com/f2EXt9q.jpg"
 speaker="Giancarlo Valente"
 time="16:00"
 title="Bitcoin e Blockchain: introduzione alla tecnologia delle criptovalute"
-abstract=abstract_1 %}
+abstract=abstract_1
+bio=bio_1 %}
 
 <hr>
 
+{% capture bio_2 %}
+<p>Freelance, remote worker, full stack web developer. Ha realizzato la sua prima applicazione web nel 1999 in ASP, dal 2002 fornisce consulenza nella realizzazione e manutenzione di applicazioni web per aziende in tutto il mondo utilizzando esclusivamente tecnologie opensource.</p>
+{% endcapture %}
 {% capture abstract_2 %}
-<p>La riservatezza è conseguenza positiva di un’applicazione web sicura. In questo talk discuteremo dei 10 principali rischi nelle applicazioni web secondo OWASP analizzando i casi più comuni e i più notevoli, l’impatto che la mancata sicurezza genera nella società e nelle aziende, come vengono eseguiti gli attacchi e come è possibile prevenirli. Studiando inoltre i punti salienti della storia della sicurezza informatica, confrontandoli con la storia della sicurezza in altri settori ci chiederemo perché le applicazioni web vengono considerate sempre meno sicure e cosa ci si aspetta nel futuro della cybersecurity.</p>
+<p>La riservatezza è conseguenza positiva di un'applicazione web sicura. In questo talk discuteremo dei 10 principali rischi nelle applicazioni web secondo OWASP analizzando i casi più comuni e i più notevoli, l'impatto che la mancata sicurezza genera nella società e nelle aziende, come vengono eseguiti gli attacchi e come è possibile prevenirli. Studiando inoltre i punti salienti della storia della sicurezza informatica, confrontandoli con la storia della sicurezza in altri settori ci chiederemo perché le applicazioni web vengono considerate sempre meno sicure e cosa ci si aspetta nel futuro della cybersecurity.</p>
 {% endcapture %}
 {% include talk.html
 img="https://i.imgur.com/6szM5Qy.jpg"
 speaker="Marino Di Clemente"
 time="17:00"
 title="Sicurezza nelle applicazioni web - attacchi e rischi"
-abstract=abstract_2 %}
+abstract=abstract_2
+bio=bio_2 %}
 
 <hr>
 
+{% capture bio_3 %}
+<p>Studente al quinto anno dell’ITT Fermi di Barletta, adora Linux, usare la CLI, mettere in sicurezza e far funzionare un server a dovere.
+Ogni tanto gli piace definirsi un "sistemista in miniatura".
+Ha instaurato da qualche tempo un rapporto di amore/odio con il pattern MVC.</p>
+{% endcapture %}
 {% capture abstract_3 %}
 <p>In casa, al lavoro ma anche nella propria tasca ognuno di noi porta un computer sempre con sé.
-Le aziende poi che hanno come loro core business la pubblicità online sono molteplici, con guadagni altissimi e utilizzando spesso sistemi sempre più invasivi per l’utente, intaccando non di rado anche la sua privacy.</p>
+Le aziende poi che hanno come loro core business la pubblicità online sono molteplici, con guadagni altissimi e utilizzando spesso sistemi sempre più invasivi per l'utente, intaccando non di rado anche la sua privacy.</p>
 <p>A questo proposito nel talk verrà mostrato come utilizzare un semplice Raspberry Pi insieme al software <em>pi-hole</em> in modo da poter bloccare "alla radice" la pubblicità online nella propria rete locale, sia su computer che su dispositivi mobile.</p>
 {% endcapture %}
 {% include talk.html
@@ -69,20 +86,27 @@ img="https://i.imgur.com/NY6Dle7.jpg"
 speaker="Saverio Valerio"
 time="18:00"
 title="Rasp-bye ads: un esempio di AdBlocker domestico"
-abstract=abstract_3 %}
+abstract=abstract_3
+bio=bio_3 %}
 
 <hr>
 
+{% capture bio_4 %}
+<p>Laureato in Giurisprudenza nel 1999, ha sempre coltivato la passione per il diritto internazionale e le nuove tecnologie. Ha collaborato come legale interno presso la "Bid.it!" dove ha avuto modo di confrontarsi con le più rilevanti questioni giuridiche in materia di diritto delle nuove tecnologie, tra cui la riservatezza dei dati personali, approfondendole anche editorialmente prestigiosa rivista InterLex.it. Nel 2006 ha fondato lo studio WebLegal.</p>
+<p>Esperto nelle procedure giudiziarie e amministrative internazionali in materia di domain names e di marchi, dal 2011 si occupa di tutela dei diritti sulle nuove varietà vegetali.</p>
+{% endcapture %}
 {% capture abstract_4 %}
 <p>La "privacy", ovvero la tutela della riservatezza dei dati personali, è un tema centrale nella società dell'informazione, in cui la linea di demarcazione tra end-user e cittadino è sempre più sottile. Se da un lato nessuna legge può costringere nessuno a leggere Orwell o a non cliccare sui banner degli spyware, l'Unione Europea attraverso le sue direttive (non sempre correttamente trasposte negli ordinamenti nazionali) ha cercato di disegnare un quadro normativo allo scopo di affermare e regolamentare i diritti dei cittadini e i reciproci doveri degli ISP.</p>
 <p>Roberto Manno illustrerà le principali "novità" del nuovo Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio, alla luce di alcune problematiche come il diritto all'oblio; la portata extraterritoriale del diritto alla riservatezza; la prevenzione dei rischi e le sanzioni.</p>
 {% endcapture %}
 {% include talk.html
 img="https://i.imgur.com/XfJS1Mq.jpg"
-speaker="Avv. Roberto Manno"
+speaker_qual="Avv."
+speaker="Roberto Manno"
 time="18:30"
 title="Diritto all'oblio, privacy e riservatezza dei dati personali su Internet"
-abstract=abstract_4 %}
+abstract=abstract_4
+bio=bio_4 %}
 
 <hr>
 
