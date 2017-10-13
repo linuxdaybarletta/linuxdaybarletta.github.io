@@ -20,8 +20,6 @@ Per la realizzazione del sito sono stati usati i seguenti software:
 
   * [GIMP](http://gimp.org/) per la realizzazione delle immagini;
   * [Vim](http://vim.org/) come editor di testo;
-  * [Mozilla Firefox](https://mozilla.org/firefox);
-  * [Midori](http://www.midori-browser.org/).
 
 Il sistema operativo utilizzato per lo sviluppo è [Manjaro Linux](http://manjaro.org/).
 
@@ -35,8 +33,7 @@ Licenze
 
 I diritti sulle seguenti opere grafiche appartengono ad i rispettivi proprietari:
 
-  * [Logo GOS](http://giovaniopenspace.it/)
-  * [Banner Linux Day Italia 2016](http://www.ils.org)
+  * [Banner Linux Day Italia](http://www.ils.org)
   * [Textures](http://subtlepatterns.com/)
 
 Il logo del pinguino con lo stemma della città di Barletta è rilasciato con licenza [Creative Commons Attribuzione 3.0 Unported](http://creativecommons.org/licenses/by/3.0/deed.it).
