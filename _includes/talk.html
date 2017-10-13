@@ -3,7 +3,11 @@
     <img src="{{ include.img }}" alt="{{ include.speaker }}">
   </div>
   <div class="details">
+    {% if include.event_section %}
+    <h4>{{ include.time }} - {{ include.event_section }}</h4>
+    {% elsif include.title %}
     <h4>{{ include.time }} - <i>{{ include.title }}</i></h4>
+    {% endif %}
     <p><i>{% if include.speaker_qual %}{{ include.speaker_qual }} {% endif %}{{ include.speaker }}</i></p>
     {{ include.abstract }}
     {% if include.bio %}
