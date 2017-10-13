@@ -24,34 +24,70 @@ L'evento si terrà il <strong>28 ottobre</strong> presso l'<strong>Istituto Tecn
 Per rimanere aggiornati sulle novità riguardanti il Linux Day nella città di Barletta è a disposizione un modulo per la <a href="{{ site.registration }}#modulo">registrazione alla mailing list</a>.
 </p>
 
-<span class="anchor" id="scaletta"></span>
-<h3>Scaletta dell'evento</h3>
-<h4></h4>
-<h4>15:30 - Introduzione</h4>
-<p><i>Paolo Dellaquila</i></p>
+<h3 class="event-outline">Programma dell'evento</h3>
+
+{% include talk.html
+img="https://i.imgur.com/dgkybQs.jpg"
+speaker="Paolo Dellaquila"
+time="15:30"
+title="Introduzione"
+abstract="" %}
+
 <hr>
-<h4>16:00 - <i>Bitcoin e Blockchain: introduzione alla tecnologia delle criptovalute</i></h4>
-<p><i>Giancarlo Valente</i></p>
+
+{% capture abstract_1 %}
 <p>Che cosa sono i bitcoin e come funziona la Blockchain. Quali sono gli ambiti nei quali l'utilizzo della tecnologia Blockchain può creare un'innovazione dirompente.</p>
+{% endcapture %}
+{% include talk.html
+img="https://i.imgur.com/f2EXt9q.jpg"
+speaker="Giancarlo Valente"
+time="16:00"
+title="Bitcoin e Blockchain: introduzione alla tecnologia delle criptovalute"
+abstract=abstract_1 %}
+
 <hr>
-<h4>17:00 - <i>Sicurezza nelle applicazioni web - attacchi e rischi</i></h4>
-<p><i>Marino Di Clemente</i></p>
+
+{% capture abstract_2 %}
 <p>La riservatezza è conseguenza positiva di un’applicazione web sicura. In questo talk discuteremo dei 10 principali rischi nelle applicazioni web secondo OWASP analizzando i casi più comuni e i più notevoli, l’impatto che la mancata sicurezza genera nella società e nelle aziende, come vengono eseguiti gli attacchi e come è possibile prevenirli. Studiando inoltre i punti salienti della storia della sicurezza informatica, confrontandoli con la storia della sicurezza in altri settori ci chiederemo perché le applicazioni web vengono considerate sempre meno sicure e cosa ci si aspetta nel futuro della cybersecurity.</p>
+{% endcapture %}
+{% include talk.html
+img="https://i.imgur.com/6szM5Qy.jpg"
+speaker="Marino Di Clemente"
+time="17:00"
+title="Sicurezza nelle applicazioni web - attacchi e rischi"
+abstract=abstract_2 %}
+
 <hr>
-<h4>18:00 - <i>Rasp-bye ads: un esempio di AdBlocker domestico</i></h4>
-<p><i>Saverio Valerio</i></p>
+
+{% capture abstract_3 %}
 <p>In casa, al lavoro ma anche nella propria tasca ognuno di noi porta un computer sempre con sé.
 Le aziende poi che hanno come loro core business la pubblicità online sono molteplici, con guadagni altissimi e utilizzando spesso sistemi sempre più invasivi per l’utente, intaccando non di rado anche la sua privacy.</p>
 <p>A questo proposito nel talk verrà mostrato come utilizzare un semplice Raspberry Pi insieme al software <em>pi-hole</em> in modo da poter bloccare "alla radice" la pubblicità online nella propria rete locale, sia su computer che su dispositivi mobile.</p>
+{% endcapture %}
+{% include talk.html
+img="https://i.imgur.com/NY6Dle7.jpg"
+speaker="Saverio Valerio"
+time="18:00"
+title="Rasp-bye ads: un esempio di AdBlocker domestico"
+abstract=abstract_3 %}
+
 <hr>
-<h4>18:30 - <i>Diritto all'oblio, privacy e riservatezza dei dati personali su Internet</i></h4>
-<p><i>Avv. Roberto Manno</i></p>
+
+{% capture abstract_4 %}
 <p>La "privacy", ovvero la tutela della riservatezza dei dati personali, è un tema centrale nella società dell'informazione, in cui la linea di demarcazione tra end-user e cittadino è sempre più sottile. Se da un lato nessuna legge può costringere nessuno a leggere Orwell o a non cliccare sui banner degli spyware, l'Unione Europea attraverso le sue direttive (non sempre correttamente trasposte negli ordinamenti nazionali) ha cercato di disegnare un quadro normativo allo scopo di affermare e regolamentare i diritti dei cittadini e i reciproci doveri degli ISP.</p>
-<p>Roberto Manno illustrerà le principali "novità" del nuovo Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio, alla luce di alcune problematiche come il diritto all'oblio; la portata
-extraterritoriale del diritto alla riservatezza; la prevenzione dei rischi e le sanzioni.</p>
+<p>Roberto Manno illustrerà le principali "novità" del nuovo Regolamento (UE) 2016/679 del Parlamento Europeo e del Consiglio, alla luce di alcune problematiche come il diritto all'oblio; la portata extraterritoriale del diritto alla riservatezza; la prevenzione dei rischi e le sanzioni.</p>
+{% endcapture %}
+{% include talk.html
+img="https://i.imgur.com/XfJS1Mq.jpg"
+speaker="Avv. Roberto Manno"
+time="18:30"
+title="Diritto all'oblio, privacy e riservatezza dei dati personali su Internet"
+abstract=abstract_4 %}
+
 <hr>
-<h4>19:30 - Dibattito</i></h4>
+
+<h4>19:30 - Dibattito</h4>
 <p>Momento dedicato all'interazione libera tra i partecipanti, discussioni ed approfondimenti.</p>
 <p>Sarà anche possibile ricevere aiuto e chiarimenti per risolvere problemi legati all'uso di GNU/Linux.</p>
 <hr>
-<h4>20:00 - Rilascio degli attestati di partecipazione</i></h4>
+<h4>20:00 - Rilascio degli attestati di partecipazione</h4>
