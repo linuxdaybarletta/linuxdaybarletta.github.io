@@ -1,0 +1,10 @@
+<div class="talk" id="{{ include.title | slugify }}">
+  <div class="speaker-img">
+    <img src="{{ include.img }}" alt="{{ include.speaker }}">
+  </div>
+  <div class="details">
+    <h4>{{ include.time }} - <i>{{ include.title }}</i></h4>
+    <p><i>{{ include.speaker }}</i></p>
+    {{ include.abstract }}
+  </div>
+</div>
