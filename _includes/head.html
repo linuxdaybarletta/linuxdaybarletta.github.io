@@ -51,6 +51,7 @@
 <script type="text/javascript">stLight.options({publisher: "7efb1a70-ab0e-4ae1-a973-fcafc21238ef", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
 <!-- /sharethis ]]] -->
 {% endif %}
+{% if jekyll.environment == 'production' %}
 <script type="text/javascript">
   var _paq = _paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -64,4 +65,5 @@
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
+{% endif %}
 <!-- /Scripts ]]] -->

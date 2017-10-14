@@ -2,8 +2,15 @@ name: Linux Day Barletta 2017
 description: "Sabato 28 ottobre: appuntamento con Tux. Puglia Software Open Source organizza il Linux Day 2017 a Barletta!"
 alt_name: Linux Day 2017 - Barletta
 event_date: 28 ottobre
+event_schema_date: 2017-10-28
+event_edition: 2017
 event_name: Linux Day 2017
 event_name_short: LD'17
+event_local_name: Linux Day Barletta 2017
+event_short_local_name: LD17 Barletta
+event_location: Istituto Tecnico Tecnologico Enrico Fermi
+event_short_location: ITT Enrico Fermi
+event_location_address: via Madonna della Croce 265
 url: http://linuxdaybarletta.it
 hashtag: LinuxDay2017
 tweet: Linux Day 2017 a Barletta!
