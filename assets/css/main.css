@@ -364,8 +364,8 @@ html, body {
 .footer {
   z-index: 1000000;
   position: relative;
-  margin-top: -71px !important; /* negative value of footer height */
-  height: 66px;
+  margin-top: -70px !important; /* negative value of footer height */
+  height: 70px;
   clear:both;
 }
 .footer p {
@@ -373,6 +373,7 @@ html, body {
 }
 .footer .container {
   border-top: 1px solid #eee;
+  height: 100%;
 }
 .nav-emph a {
   color: #a94442 !important;
