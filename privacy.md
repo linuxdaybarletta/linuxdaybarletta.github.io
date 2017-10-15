@@ -32,7 +32,7 @@ Questo sito utilizza cookie tecnici ai fini del miglioramento dell'esperienza ut
 
 | Nome | Categoria | Scopo | Durata |
 |:--- -|:----------|:------|:-------|
-| _pk_id.1.xxxx, _pk_ses.1.xxxx, PIWIK_SESSID  | cookie tecnici | Questi cookie raccolgono dati sulla navigazione intra-sito, utilizzate per compilare report per analisi statistiche e per il  miglioramento del sito web. Tutti i dati sono raccolti in forma anonima. | Sessione per PIWIK_SESSID, circa 13 mesi per _pk_ses.1.xxxx e circa un anno per _pk_id.1.xxxx |
+| `__cfduid`, `_pk_id.1.xxxx`, `_pk_ses.1.xxxx`, `PIWIK_SESSID` | cookie tecnici | Questi cookie raccolgono dati sulla navigazione intra-sito, utilizzate per compilare report per analisi statistiche e per il  miglioramento del sito web. Tutti i dati sono raccolti in forma anonima. | Sessione per `PIWIK_SESSID`, circa 13 mesi per `_pk_ses.1.xxxx` e circa un anno per `_pk_id.1.xxxx` e `__cfduid` |
 {: class="table"}
 
 L'utente ha la possibilità di eliminare i cookie in qualunque momento.
