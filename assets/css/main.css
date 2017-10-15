@@ -303,6 +303,10 @@ h5.speaker-bio-title {
 .speaker-bio {
   font-size: 0.8em;
 }
+.table-scrollable {
+  display: block;
+  overflow-x: auto;
+}
 /*}}}*/
 
 /* Navbar {{{ */
