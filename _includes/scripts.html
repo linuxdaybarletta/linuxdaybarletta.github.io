@@ -1,0 +1,25 @@
+<!-- social scripts [[[ -->
+{% if page.share or page.follow %}
+    {% include social_scripts.html %}
+{% endif %}
+<!-- /social scripts ]]] -->
+<!-- form validator [[[ -->
+{% if page.validator %}
+    {% include validator.html %}
+{% endif %}
+<!-- /form validator ]]] -->
+<!-- top alert [[[ -->
+{% if page.topalert %}
+<script src="assets/js/masteralert.js" type="text/javascript"></script>
+{% endif %}
+<!-- /top alert ]]] -->
+<!-- antispam [[[ -->
+{% if page.nospam %}
+<script src="assets/js/gtml.js" type="text/javascript"></script>
+{% endif %}
+<!-- /antispam ]]] -->
+<!-- analytics [[[ -->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+<!-- /analytics ]]] -->

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- vim: set foldmarker=[[[,]]]: -->
+<!-- vim: set foldmarker=[[[,]]] foldmethod=marker : -->
 <html lang="it">
     <!-- head [[[ -->
     <head>
@@ -53,26 +53,9 @@
         <!-- navbar [[[ -->
         {% include navbar.html %}
         <!-- /navbar ]]] -->
-        <!-- Social scripts [[[ -->
-        {% if page.share or page.follow %}
-            {% include social_scripts.html %}
-        {% endif %}
-        <!-- /Social scripts ]]] -->
-        <!-- form validator [[[ -->
-        {% if page.validator %}
-            {% include validator.html %}
-        {% endif %}
-        <!-- /form validator ]]] -->
-        <!-- top alert [[[ -->
-        {% if page.topalert %}
-        <script src="assets/js/masteralert.js" type="text/javascript"></script>
-        {% endif %}
-        <!-- /top alert ]]] -->
-        <!-- antispam [[[ -->
-        {% if page.nospam %}
-        <script src="assets/js/gtml.js" type="text/javascript"></script>
-        {% endif %}
-        <!-- /antispam ]]] -->
+        <!-- scripts [[[ -->
+        {% include scripts.html %}
+        <!-- /scripts ]]] -->
     </body>
     <!-- /body ]]] -->
 </html>
