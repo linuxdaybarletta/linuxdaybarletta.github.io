@@ -30,5 +30,5 @@ banner_horizontal: http://www.linuxday.it/sites/default/files/banners/banner_468
 banner_vertical: http://www.linuxday.it/sites/default/files/banners/banner_120x600.png
 encoded_email: "&#109;&#097;&#105;&#108;377867bca0ab759b28b215d31e10ad8b&#116;&#111;&#058;&#105;&#110;&#102;&#111;&#064;&#108;&#105;&#110;&#117;&#120;&#100;&#097;&#121;377867bca0ab759b28b215d31e10ad8b&#098;&#097;&#114;&#108;&#101;&#116;&#116;&#097;&#046;&#105;&#116;"
 navbar_right_elem: true
-piwik_analytics_url: http://nicola.link/ldb-analytics/
+piwik_analytics_url: https://nicola.link/ldb-analytics/
 timezone: Europe/Rome
