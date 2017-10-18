@@ -17,7 +17,7 @@ tweet: Linux Day 2017 a Barletta!
 twitter: LDBarletta
 facebook: https://www.facebook.com/PugliaSOS
 google_plus: //plus.google.com/118028692961657819578
-images_root: //d3qgntvue5e9xw.cloudfront.net/
+statics_root: //d3qgntvue5e9xw.cloudfront.net
 markdown: kramdown
 highlighter: rouge
 last_update_text: "Ultimo aggiornamento: "

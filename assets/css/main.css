@@ -388,7 +388,7 @@ html, body {
 }
 /*Opera Fix*/
 body:before {
-  content: "";
+  content: '';
   height: 100%;
   float: left;
   width: 0;
