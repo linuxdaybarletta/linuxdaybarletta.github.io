@@ -1,6 +1,6 @@
 <div class="talk" id="{{ include.title | slugify }}">
   <div class="speaker-img">
-    <img src="{{ site.images_root }}/{{ include.img }}" alt="{{ include.speaker }}">
+    <img src="{{ site.images_root }}{{ include.img }}" alt="{{ include.speaker }}">
   </div>
   <div class="details">
     {% if include.event_section %}
