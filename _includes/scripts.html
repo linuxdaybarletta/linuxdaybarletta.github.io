@@ -1,3 +1,20 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/{{ site.jquery }}/jquery.min.js">
+</script>
+<script src="assets/js/bootstrap.js">
+</script>
+{% if site.cookies or page.cookies %}
+<script src="assets/js/jquery.cookie.js"></script>
+{% endif %}
+{% if page.validator %}
+<script src="assets/js/jquery.validate.js"></script>
+{% endif %}
+{% if page.share %}
+<!-- sharethis [[[ -->
+<script type="text/javascript">var switchTo5x=false;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "7efb1a70-ab0e-4ae1-a973-fcafc21238ef", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+<!-- /sharethis ]]] -->
+{% endif %}
 <!-- social scripts [[[ -->
 {% if page.share or page.follow %}
     {% include social_scripts.html %}
