@@ -33,3 +33,8 @@ encoded_email: "&#109;&#097;&#105;&#108;377867bca0ab759b28b215d31e10ad8b&#116;&#
 navbar_right_elem: true
 piwik_analytics_url: https://nicola.link/ldb-analytics/
 timezone: Europe/Rome
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  ignore:
+    envs: [development]
